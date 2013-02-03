@@ -1,2 +1,157 @@
-<h1>Store#index</h1>
-<p>Find me in app/views/store/index.html.erb</p>
+<!-- CARUSEL -->
+<div id="myCarousel" class="carousel slide">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+
+    <div class="item active">
+      <a href="/">
+        <img src="assets/carusel/type1.jpeg" alt="Tornado" />
+      </a>
+      <div class="carousel-caption">
+        <p>TORNADO</p>
+      </div>
+    </div>
+
+   <div class="item">
+      <a href="/">
+        <img src="assets/carusel/type2.jpeg" alt="Tornado" />
+      </a>
+      <div class="carousel-caption">
+        <p>CLASSIC</p>
+      </div>
+    </div>
+
+
+   <div class="item">
+      <a href="/">
+        <img src="assets/carusel/type3.jpeg" alt="Tornado" />
+      </a>
+      <div class="carousel-caption">
+        <p>OFFICE</p>
+      </div>
+    </div>
+
+
+   <div class="item">
+      <a href="/">
+        <img src="assets/carusel/type4.jpeg" alt="Tornado" />
+      </a>
+      <div class="carousel-caption">
+        <p>ROMANTIC</p>
+      </div>
+    </div>
+
+
+   <div class="item">
+      <a href="/">
+        <img src="assets/carusel/type5.jpeg" alt="Tornado" />
+      </a>
+      <div class="carousel-caption">
+        <p>ADVENTURE</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+<!-- CARUSEL END -->
+
+
+<!-- THUMBNAILS -->
+<ul class="thumbnails">
+  <li class="span4">
+    <div class="thumbnail">
+      <img src="assets/carusel/type1.jpeg" alt="TORNADO STYLE">
+      <div class="caption">
+        <h5>TORNADO</h5>
+        <p>Best ever choice for men with individual style</p>
+        <p>
+          <a href="#" class="btn btn-primary">See it</a>
+        </p>
+      </div>
+    </div>
+  </li>
+  
+  <li class="span4">
+    <div class="thumbnail">
+      <img src="assets/carusel/type2.jpeg" alt="">
+      <div class="caption">
+        <h5>CLASSIC</h5>
+        <p>Excellent choice if you prefer classic style</p>
+        <p>
+          <a href="#" class="btn btn-primary">See it</a>
+        </p>
+      </div>
+    </div>
+  </li>
+
+  <li class="span4">
+    <div class="thumbnail">
+      <img src="assets/carusel/type3.jpeg" alt="">
+      <div class="caption">
+        <h5>OFFICE</h5>
+        <p>Work in a BIG company? We know that you need</p>
+        <p>
+          <a href="#" class="btn btn-primary">See it</a>
+        </p>
+      </div>
+    </div>
+  </li>
+
+  <li class="span4">
+    <div class="thumbnail">
+      <img src="assets/carusel/type4.jpeg" alt="">
+      <div class="caption">
+        <h5>ROMANTIC</h5>
+        <p>Your play in a guitar? Glasses for a real romantic hero</p>
+        <p>
+          <a href="#" class="btn btn-primary">See it</a>
+        </p>
+      </div>
+    </div>
+  </li>
+
+  <li class="span4">
+    <div class="thumbnail">
+      <img src="assets/carusel/type5.jpeg" alt="">
+      <div class="caption">
+        <h5>ADVENTURE</h5>
+        <p>Without words. Adventures is calling</p>
+        <p>
+          <a href="#" class="btn btn-primary">See it</a>
+        </p>
+      </div>
+    </div>
+  </li>
+
+  <li class="span4">
+    <div class="thumbnail">
+      <img src="http://placehold.it/360x282" alt="">
+      <div class="caption">
+        <h5>ADVENTURE</h5>
+        <p>Without words. Adventures is calling</p>
+        <p>
+          <a href="#" class="btn btn-primary">See it</a>
+        </p>
+      </div>
+    </div>
+  </li>
+</ul>
+<!-- THUMBNAILS END -->
+
+
+<!-- SCRIPT -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+<!-- Bootstrap jQuery plugins compiled and minified -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 2000
+    });
+  });
+</script>
+<!-- SCRIPT END -->
