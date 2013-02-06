@@ -1,4 +1,6 @@
 Storex::Application.routes.draw do
+  devise_for :users
+
   get "store/index"
 
   resources :products
