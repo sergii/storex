@@ -1,12 +1,10 @@
 Storex::Application.routes.draw do
   devise_for :users
-
-  get "store/index"
-
-  resources :products
-
   root to: 'store#index', as: 'store'
 
+  # get "store/index"
+
+  resources :products
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
